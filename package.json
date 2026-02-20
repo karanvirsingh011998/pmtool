@@ -1,0 +1,20 @@
+{
+  "name": "pmtool",
+  "version": "1.0.0",
+  "description": "A project management tool",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "pm",
+    "backend",
+    "api"
+  ],
+  "author": "Karanvir Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.8.1"
+  }
+}
