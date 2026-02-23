@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "keywords": [
     "pm",
@@ -15,6 +16,15 @@
   "author": "Karanvir Singh",
   "license": "ISC",
   "devDependencies": {
+    "install": "^0.13.0",
+    "nodemon": "^3.1.13",
+    "npm": "^11.10.1",
     "prettier": "3.8.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
   }
 }
